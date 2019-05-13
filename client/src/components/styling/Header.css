@@ -1,0 +1,17 @@
+.headerMenu {
+  background-color: #001AFF;
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.headerMenu a {
+  color: #F21E1E;
+  margin: 5px;
+}
+.headerMenu a:active {
+  color: white;
+}

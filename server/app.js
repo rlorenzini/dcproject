@@ -4,12 +4,8 @@ const express = require('express'),
   cors = require('cors'),
   session = require('express-session'),
   // jwt = require('jsonwebtoken'),
-  // models = require('./models')
+  // models = require('./models'),
   PORT = 8080;
-
-// const users = [
-//   {username:"richard",password:"password"}
-// ]
 
 app.use(session({
   secret: "fmgffndmf",

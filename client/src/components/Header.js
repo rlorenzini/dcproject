@@ -15,6 +15,7 @@ class Header extends Component {
       <li><NavLink to='/interactions'>Interactions</NavLink></li>
       <li><NavLink to='/miranda'>Miranda</NavLink></li>
       <li><NavLink to='/terms'>Terms</NavLink></li>
+      <li><NavLink to='/articles'>Articles</NavLink></li>
 
       </ul>
       </div>

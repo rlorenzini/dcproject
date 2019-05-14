@@ -12,6 +12,7 @@ import Searched from './components/Searched.js';
 import Interactions from './components/Interactions.js';
 import Miranda from './components/Miranda.js';
 import Terms from './components/Terms.js';
+import Articles from './components/RedditAPI.js';
 
 import BaseLayout from './components/BaseLayout';
 
@@ -40,6 +41,7 @@ ReactDOM.render(
 <Route path='/interactions' component={Interactions}/>
 <Route path='/miranda' component={Miranda}/>
 <Route path='/terms' component={Terms}/>
+<Route path='/articles' component={Articles}/>
 </Switch>
 </BaseLayout>
 </BrowserRouter>

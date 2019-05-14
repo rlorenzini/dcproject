@@ -5,8 +5,13 @@ import './index.css';
 
 
 import App from './App';
-import History from './components/History'
-import UseofForce from './components/UseofForce'
+import History from './components/History.js';
+import UseofForce from './components/UseofForce.js';
+import Detained from './components/Detained.js';
+import Searched from './components/Searched.js';
+import Interactions from './components/Interactions.js';
+import Miranda from './components/Miranda.js';
+import Terms from './components/Terms.js';
 
 import BaseLayout from './components/BaseLayout';
 
@@ -30,6 +35,11 @@ ReactDOM.render(
 <Route path='/' exact component={App}/>
 <Route path='/history' component={History}/>
 <Route path='/force' component={UseofForce}/>
+<Route path='/detained' component={Detained}/>
+<Route path='/search' component={Searched}/>
+<Route path='/interactions' component={Interactions}/>
+<Route path='/miranda' component={Miranda}/>
+<Route path='/terms' component={Terms}/>
 </Switch>
 </BaseLayout>
 </BrowserRouter>

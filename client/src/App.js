@@ -6,7 +6,7 @@ import BaseLayout from './components/BaseLayout'
 function App() {
   return (
     <div>
-    <p>This is the home page</p>
+    <p className="body">This is the home page</p>
 
 
     </div>

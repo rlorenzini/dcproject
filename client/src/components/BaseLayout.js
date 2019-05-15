@@ -4,7 +4,7 @@ import './styling/Header.css'
 import {connect} from 'react-redux';
 import {withRouter} from 'react-router-dom';
 // import TestAPI from './TestAPI'
-// import TestMyAPI from './TestMyAPI'
+import TestMyAPI from './TestMyAPI'
 
 class BaseLayout extends Component {
   render(){

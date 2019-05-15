@@ -15,6 +15,8 @@ import Miranda from './components/Miranda.js';
 import Terms from './components/Terms.js';
 import Articles from './components/RedditAPI.js';
 import requireAuth from './components/requireAuth.js';
+import TestMyAPI from './components/TestMyAPI.js';
+
 
 import BaseLayout from './components/BaseLayout';
 
@@ -49,6 +51,7 @@ ReactDOM.render(
 <Route path='/miranda' component={requireAuth(Miranda)}/>
 <Route path='/terms' component={requireAuth(Terms)}/>
 <Route path='/articles' component={requireAuth(Articles)}/>
+<Route path='/TestMyAPI' component={TestMyAPI}/>
 </Switch>
 </BaseLayout>
 </BrowserRouter>

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "ousayayt",
+    "password": "HPlA-LK7_7iBbpljho8p-oItNtpgeckK",
+    "database": "ousayayt",
+    "host": "isilo.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "ousayayt",
+    "password": "HPlA-LK7_7iBbpljho8p-oItNtpgeckK",
+    "database": "ousayayt",
+    "host": "isilo.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "ousayayt",
+    "password": "HPlA-LK7_7iBbpljho8p-oItNtpgeckK",
+    "database": "ousayayt",
+    "host": "isilo.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}

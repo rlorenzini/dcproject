@@ -8,14 +8,16 @@ class Header extends Component {
       <div>
       <ul className="headerMenu">
       <li><NavLink exact to='/'>Home</NavLink></li>
-      <li><NavLink to='/history'>History</NavLink></li>
-      <li><NavLink to='/force'>UseOfForce</NavLink></li>
-      <li><NavLink to='/detained'>Detained</NavLink></li>
-      <li><NavLink to='/search'>Search</NavLink></li>
-      <li><NavLink to='/interactions'>Interactions</NavLink></li>
-      <li><NavLink to='/miranda'>Miranda</NavLink></li>
-      <li><NavLink to='/terms'>Terms</NavLink></li>
-      <li><NavLink to='/articles'>Articles</NavLink></li>
+      <li><NavLink to='/login'>Login</NavLink></li>
+      <li><NavLink to='/register'>Register</NavLink></li>
+      {this.props.isAuthenticated ?<li><NavLink to='/history'>History</NavLink></li>:null}
+      {this.props.isAuthenticated ?<li><NavLink to='/force'>UseOfForce</NavLink></li>:null}
+      {this.props.isAuthenticated ?<li><NavLink to='/detained'>Detained</NavLink></li>:null}
+      {this.props.isAuthenticated ?<li><NavLink to='/search'>Search</NavLink></li>:null}
+      {this.props.isAuthenticated ?<li><NavLink to='/interactions'>Interactions</NavLink></li>:null}
+      {this.props.isAuthenticated ?<li><NavLink to='/miranda'>Miranda</NavLink></li>:null}
+      {this.props.isAuthenticated ?<li><NavLink to='/terms'>Terms</NavLink></li>:null}
+      {this.props.isAuthenticated ?<li><NavLink to='/articles'>Articles</NavLink></li>:null}
 
       </ul>
       </div>

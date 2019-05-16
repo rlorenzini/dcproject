@@ -13,7 +13,7 @@ import Searched from './components/Searched.js';
 import Interactions from './components/Interactions.js';
 import Miranda from './components/Miranda.js';
 import Terms from './components/Terms.js';
-import Articles from './components/RedditAPI.js';
+// import Articles from './components/RedditAPI.js';
 import requireAuth from './components/requireAuth.js';
 import TestMyAPI from './components/TestMyAPI.js';
 
@@ -50,7 +50,6 @@ ReactDOM.render(
 <Route path='/interactions' component={requireAuth(Interactions)}/>
 <Route path='/miranda' component={requireAuth(Miranda)}/>
 <Route path='/terms' component={requireAuth(Terms)}/>
-<Route path='/articles' component={requireAuth(Articles)}/>
 <Route path='/TestMyAPI' component={TestMyAPI}/>
 </Switch>
 </BaseLayout>
